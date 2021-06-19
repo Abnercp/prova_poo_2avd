@@ -70,6 +70,7 @@ class EntregaController {
                data_entrega,
                quantidade_entregue 
             })
+           return res.json(entrega)
         } catch (err) {
             return res
                 .status(400)
